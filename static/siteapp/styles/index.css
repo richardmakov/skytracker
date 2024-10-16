@@ -1,0 +1,39 @@
+body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: "Roboto", sans-serif;
+    }
+
+    #map {
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .map-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        pointer-events: none;
+    }
+
+    .navbar {
+        background: rgb(11, 8, 8);
+        background: linear-gradient(180deg, rgba(11, 8, 8, 0.5438550420168067) 14%, rgba(9, 7, 7, 0.3533788515406162) 39%, rgba(3, 3, 3, 0.10127801120448177) 66%, rgba(0, 0, 0, 0) 100%);
+        position: relative;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .dropdown-menu {
+        maxWidth: 5%;
+        min-width: 0;
+    }
